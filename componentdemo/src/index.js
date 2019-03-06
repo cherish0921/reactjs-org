@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import Timer from './statuscomponent';
 import TodoApp from "./todoapp";
+import Markdowneditor from './markdowneditor';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
@@ -10,6 +11,7 @@ ReactDOM.render(
         <App name='Taylor'/>
         <Timer/>
         <TodoApp />
+        <Markdowneditor />
     </div>, 
     document.getElementById('root')
 );
