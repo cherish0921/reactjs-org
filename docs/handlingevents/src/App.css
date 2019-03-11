@@ -1,0 +1,26 @@
+.App{
+  padding: 20px;
+}
+.checkbox{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid #cccccc;
+}
+.checkbox-item{
+  display: none;
+}
+.checkbox-label{
+  display: block;
+  width: 14px;
+  height: 14px;
+  background-color: #eee;
+  border-radius: 50%;
+  transition: all 0.5s linear;
+}
+input.checkbox-item:checked+.checkbox-label{
+  background-color: #e4393c;
+}
